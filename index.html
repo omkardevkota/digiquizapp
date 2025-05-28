@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nepali Tech Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+    <img src="quizlogo12.jpg" alt="Quiz Logo" class="logo" />
+  </div>
+    <h2>DEVDAHA QUIZ CONTEST</h2>
+    <h4><i>Organized by CHILD CLUB OF DEVDAHA</i></h4>
+  </header>
+
+  <main>
+    <!-- Regular Round Controls -->
+    <section class="controls">
+      <label for="round-select"><b>Round:</b></label>
+      <select id="round-select">
+        <option value="">Choose Round</option>
+        <option value="gk">G.K.</option>
+        <option value="politics">Politics</option>
+        <option value="geography">Geography</option>
+        <option value="sports">Games & Sports</option>
+        <option value="science">Science & Technology</option>
+      </select>
+
+      <label for="team-select"><b>House</b></label>
+      <select id="team-select">
+        <option value="">Choose House</option>
+        <option value="RED">House RED</option>
+        <option value="BLUE">House BLUE</option>
+        <option value="GREEN">House GREEN</option>
+        <option value="YELLOW">House YELLOW</option>
+      </select>
+
+      <label for="question-select"><b>Question No:</b></label>
+      <select id="question-select">
+        <option value="">Number</option>
+      </select>
+
+      <button id="show-question-btn">Show Question</button>
+      <button id="show-answer-btn">Check Answer</button>
+    </section>
+
+    <section class="display">
+      <div id="question-display" class="question-box">Questions will display here !</div>
+      <div id="answer-display" class="answer-box"></div>
+    </section>
+
+    <!-- Rapid Fire Section -->
+    <section class="rapid-fire">
+      <h2>🚀 Rapid Fire Round</h2>
+      <label for="rf-team-select"><b>House:</b></label>
+      <select id="rf-team-select">
+        <option value="">Choose House</option>
+        <option value="a">House RED</option>
+        <option value="b">House BLUE</option>
+        <option value="c">House GREEN</option>
+        <option value="d">House YELLOW</option>
+      </select>
+      <button id="start-rf-btn">Start Rapid Fire</button>
+      <span id="rf-timer" class="timer">90</span> sec
+      <div id="rf-question" class="question-box"></div>
+      <button id="next-rf-btn" style="display:none;">Next</button>
+    </section>
+
+    <!-- Scoreboard -->
+    <section class="scoreboard">
+      <h2>SCORE BOARD</h2>
+      <div class="teams">
+        <div class="team"><h3>House RED</h3><p id="score-RED">0</p><button onclick="addScore('RED')">+5</button></div>
+        <div class="team"><h3>House BLUE</h3><p id="score-BLUE">0</p><button onclick="addScore('BLUE')">+5</button></div>
+        <div class="team"><h3>House GREEN</h3><p id="score-GREEN">0</p><button onclick="addScore('GREEN')">+5</button></div>
+        <div class="team"><h3>House YELLOW</h3><p id="score-YELLOW">0</p><button onclick="addScore('YELLOW')">+5</button></div>
+      </div>
+      <button id="reset-btn" class="reset">Reset All</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Devdaha Quiz Contest</br>
+    <marquee>Designed & Developed by OmKaar Devkota</marquee></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

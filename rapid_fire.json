@@ -1,0 +1,90 @@
+{
+  "a": [
+    {
+      "q": "HTML को full form के हो?",
+      "a": "HyperText Markup Language"
+    },
+    {
+      "q": "CSS को full form के हो?",
+      "a": "Cascading Style Sheets"
+    },
+    {
+      "q": "JS को पूरा नाम के हो?",
+      "a": "JavaScript"
+    },
+    {
+      "q": "CPU को full form?",
+      "a": "Central Processing Unit"
+    },
+    {
+      "q": "नेपालको राजधानी?",
+      "a": "काठमाडौं"
+    }
+  ],
+  "b": [
+    {
+      "q": "WWW को full form?",
+      "a": "World Wide Web"
+    },
+    {
+      "q": "RAM को full form?",
+      "a": "Random Access Memory"
+    },
+    {
+      "q": "SSD भनेको?",
+      "a": "Solid State Drive"
+    },
+    {
+      "q": "SQL को full form?",
+      "a": "Structured Query Language"
+    },
+    {
+      "q": "नेपालको राष्ट्रिय फूल?",
+      "a": "लालीगुराँस"
+    }
+  ],
+  "c": [
+    {
+      "q": "NASA को full form?",
+      "a": "National Aeronautics and Space Administration"
+    },
+    {
+      "q": "URL को full form?",
+      "a": "Uniform Resource Locator"
+    },
+    {
+      "q": "HTTP को full form?",
+      "a": "HyperText Transfer Protocol"
+    },
+    {
+      "q": "LED को full form?",
+      "a": "Light Emitting Diode"
+    },
+    {
+      "q": "नेपालको राष्ट्रिय पक्षी?",
+      "a": "डाँफा (Impeyan Pheasant)"
+    }
+  ],
+  "d": [
+    {
+      "q": "PNG को full form?",
+      "a": "Portable Network Graphics"
+    },
+    {
+      "q": "GIF को full form?",
+      "a": "Graphics Interchange Format"
+    },
+    {
+      "q": "AI को full form?",
+      "a": "Artificial Intelligence"
+    },
+    {
+      "q": "VR को full form?",
+      "a": "Virtual Reality"
+    },
+    {
+      "q": "नेपालको राष्ट्रिय जनावर?",
+      "a": "गौर"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: #317080;
+  margin: 0;
+}
+.logo-container {
+  /*background-color: #004d66;*/
+  padding: 2px;
+  text-align: center;
+
+  
+}
+
+.logo {
+  max-width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: content;
+}
+header {
+  background: #00294d;
+  color: white;
+  padding: 1em;
+}
+main { padding: 20px; }
+.controls select, .controls button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+button {
+  background-color: #00897b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover { background-color: #004d40; }
+.display, .rapid-fire { margin-top: 25px; }
+.question-box, .answer-box {
+  background: white;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 600px;
+  border: 2px solid #006064;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.answer-box { font-weight: bold; }
+.scoreboard { margin-top: 35px; }
+.teams { display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; }
+.team {
+  background: white;
+  border: 2px solid #004d40;
+  border-radius: 10px;
+  padding: 15px;
+  width: 140px;
+}
+.team h3 { margin: 5px 0; }
+.team p { font-size: 24px; margin: 10px 0; }
+.reset { margin-top: 20px; background-color: #d32f2f; }
+.reset:hover { background-color: #b71c1c; }
+.timer {
+  display: inline-block;
+  font-weight: bold;
+  background: #e53935;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+footer {
+  background: #00294d;
+  color: white;
+  padding: 0.25em;
+}
+@media (max-width: 600px) {
+  .teams { flex-direction: column; align-items: center; }
+}
